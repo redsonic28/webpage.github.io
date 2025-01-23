@@ -5,5 +5,11 @@
       "src": "inicio.html",
       "use": "@vercel/static"
     }
+  ],
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/inicio.html"
+    }
   ]
 }
